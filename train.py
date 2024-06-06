@@ -67,9 +67,4 @@ with open("./Results/metrics.txt", "w") as outfile:
     outfile.write(f"\nAccuracy = {round(accuracy, 2)}, F1 Score = {round(f1, 2)}")
 
 ## Saving the model file
-<<<<<<< HEAD
 sio.dump(pipe, "./Model/drug_pipeline.skops")
-if_name = main
-=======
-
->>>>>>> 6f7cb312977403564ae49175ac2c72f4e9681e31
